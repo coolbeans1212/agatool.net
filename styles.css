@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Ancient Modern Tales';
+    src: url('files/fonts/AncientModernTales.eot'); /*IE9*/
+    src: url('files/fonts/AncientModernTales.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('files/fonts/AncientModernTales.woff') format('woff'), /* Modern Browsers */
+         url('files/fonts/AncientModernTales.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+body {
+    font-family: 'Ancient Modern Tales', 'Times New Roman', Times, serif;
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.horizontal-row {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    margin: 10px 5%;
+    padding: 10px;
+}
+
+.text {
+    width: 80%;
+    position: relative;
+}
+
+.image {
+    width: 20%;
+    border: 1px solid white;
+    background: #333333aa;
+}
+
+.headnote {
+    font-size: 14px;
+    color: lightgray;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footnote {
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    color: lightgray;
+}
