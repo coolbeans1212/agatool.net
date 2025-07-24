@@ -129,3 +129,11 @@ h4 {
     width: 20px;
     height: 20px;
 }
+
+a {
+    color: lightblue;
+}
+
+a:hover {
+    text-decoration: wavy underline;
+}
