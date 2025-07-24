@@ -2,7 +2,6 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AgaTool</title>
         <meta name="description" content="AgaTool - A multitasking bookmarklet.">
         <link rel="icon" href="https://emoji.slack-edge.com/T0266FRGM/aga/9e87e28f51c6caa8.jpg" type="image/x-icon">
@@ -10,17 +9,65 @@
     </head>
     <body>
         <h1>AgaTool</h1>
-        <div class="horizontal-row">
-            <div class="text">
-                <h2>AgaTool is... useful</h2>
-                <p>AgaTool has several tools to help you be more productive while browsing the web, such as a notepad, calculator, AI and iframe browser<span class="headnote">1</span>.</p>
-                <span class="footnote">1: AI and iframe browser subject to availability.</span>
+        <div class="window">
+            <div class="window-header">
+                <div class="window-title">https://agatool.net/what-is-agatool.php</div>
             </div>
-            <div class="image"><img src="/files/images/graphic1.png" alt="A screenshot of the AgaTool bookmarklet running"></div>
+            <div class="window-content">
+                <h2>What is AgaTool?</h2>
+                <p>Great question, <span class="red">stinky</span>! AgaTool is a multitasking bookmarklet made in 16 hours that lets you get more out of the web. I mean, just look at this picture! Look how <span class="green">cool</span> it is!!!!!!!</p>
+                <img src="/files/images/graphic1.png" alt="SUPER DUPER COOL GRAPHIC" class="image">
+                <p>AgaTool includes many features, such as:</p>
+                <ul>
+                    <li><span class="red">An iframe browser</span></li>
+                    <li><span class="yellow">A notepad</span></li>
+                    <li><span class="yellow">A calculator</span></li>
+                    <li><span class="red">A search tool</span></li>
+                    <li><span class="yellow">An AI chat interface</span></li>
+                </ul>
+                <p>Features highlighted in <span class="red">red</span> work sometimes and features highlighted in <span class="yellow">yellow</span> work most of the time (nothing works all the time because websites are too secure >:( they should all go back to PHP smh).</p>
+            </div>
         </div>
-        <div class="horizontal-row">
-            <div class="text">
-                <h2>AgaTool is... intelligent</h2>
-                <p>AgaTool will remember where everything is on a web page, so that when you navigate to a different subpage, you can pick up right where you left off.</p>
+        <div class="window window-right">
+            <div class="window-header">
+                <div class="window-title">https://agatool.net/how-is-agatool.php</div>
+            </div>
+            <div class="window-content">
+                <h2>How is AgaTool?</h2>
+                <p>AgaTool is doing <span class="blue">quite good</span>, thank you for asking.</p>
+            </div>
+        </div>
+        <div class="footer">
+            Dedicated to all the Agas:
+            <img src="https://emoji.slack-edge.com/T0266FRGM/aga/9e87e28f51c6caa8.jpg" alt="Aga" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/agagaga/b2710196ceb86916.gif" alt="Agagaga" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/agahappi/07bd349b22c241e0.gif" alt="Agahappi" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/agaboing/88d6a4048fe7e904.gif" alt="Agaboing" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/agabounce/52bfd8e41659155a.gif" alt="Agabounce" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/agatyping/ddbdb90b2743bdbb.gif" alt="Agatyping" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/amagas/e1469c9533db5d9d.jpg" alt="Amagas" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/conaga/f0857b33f187ff09.gif" alt="Conaga" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/agabusiness/b9c4e2ddd313bbd7.png" alt="Agabusiness" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/swaga/fee2db284a8e27a4.jpg" alt="Swaga" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/agay/377eec4593b06015.png" alt="Agay" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/waga/f11532c649f74e9b.gif" alt="Waga" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/agadespair/2960f80fab9ca270.jpg" alt="Agadespair" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/wagay/d70b23a97a09f0ed.gif" alt="Wagay" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/agaflirt/da95faf34e677134.png" alt="Agaflirt" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/wanga/363d7ca67b403fb2.gif" alt="Wanga" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/agasp/2354cc3d5c303bc6.png" alt="Agasp" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/anga/6fb9865189b59b2e.jpg" alt="Anga" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/saga/5f4cde625c11b7db.png" alt="Saga" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/agua/26b9a1692263d018.jpg" alt="Agua" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/a-aga/e416d0202d36bedd.jpg" alt="A-aga" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/glorpaga/0a7abdd41eb71e59.jpg" alt="Glorpaga" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/agaside/ca2f9ed507a9565a.jpg" alt="Agaside" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/gwaga/bcb77f0ebeb20926.gif" alt="Gwaga" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/agapeak/c74db775d0b4b7ed.gif" alt="Agapeak" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/yeaga/2dc16e3d8a966083.gif" alt="Yeaga" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/ugu/a7d0fdec3ad759dd.jpg" alt="Ugu" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/longa/4ac11a06d81cd254.jpg" alt="Longa" class="footerimage">
+            <img src="https://emoji.slack-edge.com/T0266FRGM/agabye/f0667d44e02b46c8.gif" alt="Agabye" class="footerimage">
         </div>
     </body>
+</html>
