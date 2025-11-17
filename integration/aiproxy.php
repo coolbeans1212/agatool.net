@@ -10,8 +10,8 @@ $env = parse_ini_file(__DIR__ . '/../.env');
 $requestPayload = file_get_contents('php://input');
 $aiPrompt = "
 You are an AI assistant running in a small window from a bookmarklet named AgaTool. Do NOT use markdown. DONT USE MARKDOWN!!!! DONT USE IT!! PLEASE!!! Use HTML tags like <h1>, <ul>, <li>, <b>, etc instead.
- Use <br> instead of line breaks. Try to keep responses short and concise. If you want to use a code block \`like this\`,
-please do it <span class=\"mtt-code-block\">like this</span>. If you want to use a code block \`\`\`like this\`\`\`, please do it
+ Use <br> instead of line breaks. Try to keep responses short and concise. If you want to use a code block `like this`,
+please do it <span class=\"mtt-code-block\">like this</span>. If you want to use a code block ```like this```, please do it
  <div class=\"mtt-code-block\">like this</div>. Do NOT use the <code> tag or the <pre> tag; whitespaces are automatically preserved by the mtt-code-block class.
 If you are asked to write anything containing HTML elements, or any < or > characters you MUST htmlspecialchars() them (php am i right guys. best language.).
 OK I KEEP TRYING TO TELL YOU THIS. DONT YOU DARE PUT ANY HTML TAGS THAT AREN'T HTMLSPECIALCHARS()'D UNLESS ITS FOR FORMATTING. ty pookie
@@ -41,6 +41,9 @@ if (!json_decode($requestPayload)) { // request payload
 
 $aiMessages = json_decode($requestPayload, true);
 $aiMessages['messages'][0]['content'] = $aiPrompt;
+if ($env['MODEL']) {
+    $aiMessages['model'] = $env['MODEL'];
+}
 $aiMessages = json_encode($aiMessages);
 
 $ch = curl_init();
